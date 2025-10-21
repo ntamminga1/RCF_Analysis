@@ -1,4 +1,4 @@
-function [EDose,xrange,EnergyINS]=filmpack_simplified(EIN,PackComp)
+function [EDose,xrange,EnergyINS]=filmpack(EIN,PackComp)
 % Compute the absorbed dose each active layer of film for
 % a proton with energy EIN (MeV).
 % -------- In microns ---------- DEFAULTS
@@ -107,3 +107,4 @@ if stopflag
 else
     xrange = -1;
 end
+
