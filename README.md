@@ -16,4 +16,4 @@ This is found in filmpack.m
 It is used to extract the dE/dx information from SRIM calculations for each layer of material. This must be done prior to running this code and the directory to your SRIM data must be set.
 
 ### deltaE.m
-This code is a function that determines the range of proton energies that are deposited into each active layer of your film pack. This is used as $\Delta$E in Protons/MeV/sr.
+This code is a function that determines the range of proton energies that are deposited into each active layer of your film pack. This is used as &Delta;E in Protons/MeV/sr.
