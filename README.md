@@ -1,5 +1,7 @@
 # RCF_Analysis
 This repo holds the Matlab code used to convert RCF dose data into Protons/MeV.
+This code can be used as a template for your own RCF analysis. However, you must adapt the code to fit your situation. It is expected that you have your own dose information in units of Gy (or in my case Gy/sr) and that you can run SRIM calculations for each layer of material you will pass through.
+
 The code is organized as follows:
 ### RCFanalysis.m
 This is the main file that generates the response function of a designated RCF stack, reads the mean dose on the RCF stack, and converts that dose (Gy/sr) into Protons/MeV/sr. This code must be vastly editted to meet your needs, this simply reflects the proper way to use the code to generate what you want. The RCF stack configurtion must be changed to match your own individual needs. The dose data importing must also be matched to your own individual needs. The plotting must be changed to what you want to plot.
